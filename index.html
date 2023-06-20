@@ -33,7 +33,7 @@ a:hover {
 
 /* Header Styles */
 header {
-  background-color: #8e44ad;
+  background-color: black;
   padding: 20px;
   text-align: center;
 }
@@ -42,11 +42,13 @@ h1 {
   font-size: 36px;
   margin: 0;
   padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px purple;
 }
 
 /* About Section Styles */
 #about {
-  background-color: #2c3e50;
+  background-color: black;
   padding: 40px 0;
   text-align: center;
 }
@@ -56,30 +58,39 @@ h1 {
   height: auto;
   border-radius: 50%;
   margin-bottom: 20px;
+  filter: brightness(150%);
+  box-shadow: 0px 0px 20px purple;
 }
 
 /* Projects Section Styles */
 #projects {
-  background-color: #3498db;
+  background-color: black;
   padding: 40px 0;
   text-align: center;
 }
 
 .project {
-  background-color: #2980b9;
+  background-color: black;
   color: white;
   padding: 20px;
   margin-bottom: 20px;
   transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px purple;
 }
 
 .project:hover {
-  background-color: #8e44ad;
+  background-color: blue;
+  box-shadow: 0px 0px 20px purple;
+}
+
+.project h3 {
+  color: white;
+  text-shadow: 2px 2px 4px purple;
 }
 
 /* Contact Section Styles */
 #contact {
-  background-color: #8e44ad;
+  background-color: black;
   padding: 40px 0;
   text-align: center;
 }
@@ -105,14 +116,21 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #3498db;
+  background-color: blue;
   color: white;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #2980b9;
+  background-color: purple;
 }
+
+input,
+textarea,
+input[type="submit"] {
+  box-shadow: 0px 0px 10px purple;
+}
+
   </style>
 </head>
 <body>
