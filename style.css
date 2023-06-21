@@ -1,0 +1,255 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-image: url('Background.png');
+  background-size: cover;
+  background-attachment: fixed; /* Added */
+}
+
+/* Header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjusted transparency */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: purple;
+  text-decoration: none;
+}
+
+/* Landing section styles */
+#landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent; /* Changed to transparent */
+}
+
+.container img {
+  width: 200px; /* Increased size */
+  height: 200px; /* Increased size */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* About section styles */
+#about {
+  padding: 50px 0;
+  background-color: transparent; /* Changed to transparent */
+}
+
+.container h2 {
+  text-align: center;
+  color: lavender; /* Changed to lavender */
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.container p {
+  margin-bottom: 10px;
+}
+
+.container ul {
+  margin-left: 20px;
+}
+
+/* Projects section styles */
+#projects {
+  padding: 50px 0;
+  background-color: transparent; /* Changed to transparent */
+}
+
+.project {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjusted transparency */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: lavender; /* Changed to lavender */
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+.project a {
+  color: purple;
+  text-decoration: none;
+}
+
+/* Contact section styles */
+#contact {
+  padding: 50px 0;
+  background-color: transparent; /* Changed to transparent */
+}
+
+.container form {
+  margin-bottom: 20px;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.container form input,
+.container form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.container form input[type="submit"] {
+  background-color: black; /* Changed to black */
+  color: white;
+  cursor: pointer;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info p a {
+  color: lavender; /* Changed to lavender */
+  text-decoration: none;
+}
+
+
+/* Add these styles at the end of your CSS file */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: white;
+}
+
+#landing {
+  background: url('Background.png') fixed;
+  background-size: cover;
+}
+
+#landing h1, #landing h2 {
+  font-weight: normal;
+}
+
+#about ul, #about p, #projects .project p {
+  color: white;
+}
+
+#projects {
+  background: transparent;
+}
+
+#projects h2 {
+  color: #b3e5fc;
+}
+
+.project {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #b3e5fc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.project:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+  background: transparent;
+}
+
+#contact form {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: white;
+}
+
+#contact input[type="submit"] {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: transparent;
+}
+
+.contact-info p a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.contact-info p a:hover {
+  color: #b3e5fc;
+}
+
+/* Add glow effect to section titles */
+h2 {
+  text-shadow: 0 0 10px #b3e5fc;
+}
+
+/* Add glow effect to icons */
+.contact-info p a i {
+  text-shadow: 0 0 10px #b3e5fc;
+}
+
+/* Add these styles to your existing CSS code */
+
+/* Increase distance between icon and content */
+.contact-info p {
+  margin-top: 20px;
+}
+
+/* Make the icon glow in baby blue color */
+.contact-info p a i {
+  color: #b3e5fc;
+  text-shadow: 0 0 10px #b3e5fc;
+}
+
